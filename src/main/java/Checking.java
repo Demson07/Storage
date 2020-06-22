@@ -11,12 +11,12 @@ public class Checking {
         }
     }
 
-    static List<Buyer> addBuyersToList (int count) {
-        List<Buyer> buyers = new ArrayList<>();
-        for (int i = 0; i < count; i++) {
-            Buyer buyer = new Buyer();
-            buyers.add(buyer);
-        }
-        return buyers;
-    }
+//    static List<Buyer> addBuyersToList (int count) {
+//        List<Buyer> buyers = new ArrayList<>();
+//        for (int i = 0; i < count; i++) {
+//            Buyer buyer = new Buyer();
+//            buyers.add(buyer);
+//        }
+//        return buyers;
+//    }
 }
