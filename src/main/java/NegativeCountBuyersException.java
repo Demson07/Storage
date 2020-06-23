@@ -1,7 +1,7 @@
 public class NegativeCountBuyersException extends RuntimeException{
 
-    public NegativeCountBuyersException () {
-        super("Неправильное количество покупателей.");
+    public NegativeCountBuyersException (String msg) {
+        super(msg);
     }
 
 }

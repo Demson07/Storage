@@ -5,7 +5,7 @@ public class Checking {
 
     static int checkCountBuyers (int count) {
         if (count < 1) {
-            throw new NegativeCountBuyersException();
+            throw new NegativeCountBuyersException("Неправильное количество покупателей.");
         } else {
             return count;
         }
